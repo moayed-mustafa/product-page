@@ -1,14 +1,17 @@
 
 import React from "react";
 import Layout from "src/Layout/Layout"
+import { useTheme } from "@emotion/react";
+
 function App() {
+
+  const theme = useTheme()
+  console.log('Current theme: ', theme)
   return (
-    <div className="App">
       <Layout>
         <div>
         </div>
-      </Layout>
-    </div>
+    </Layout>
   );
 }
 
