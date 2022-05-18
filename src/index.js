@@ -4,7 +4,6 @@ import App from './App.tsx';
 import {ThemeProvider} from 'styled-components';
 import {theme} from './theme/theme';
 
-
 const root = ReactDOM.createRoot (document.getElementById ('root'));
 root.render (
   <ThemeProvider theme={theme}>
@@ -12,5 +11,4 @@ root.render (
     <App />
   </React.StrictMode>
 </ThemeProvider>
-
 );
