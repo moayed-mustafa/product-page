@@ -1,6 +1,6 @@
 
 import React from "react";
-import Layout from "src/Layout/Layout"
+import Layout from "./Layout/Layout";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <div>
         </div>
     </Layout>
+
   );
 }
 
