@@ -18,19 +18,20 @@ export const theme = {
     nav: Colors.lightGrey(),
     badge: Colors.lightOrange(),
     border: Colors.disabledGrey(),
+    brand: Colors.orange(),
     button: {
       primary: Colors.orange(),
       secondary: Colors.lightGrey(),
     },
     text: {
       primary: Colors.black(),
-      secondary: Colors.lightGrey(),
+      secondary: Colors.grey(),
       disabled: Colors.disabledGrey(),
       brand: Colors.orange(),
     },
   },
   breakpoints: ['1440px', '786px', '375px'],
-  space: ['0px', '2px', '4px', '8px', '16px', '32px', '64px', '128px', '256px'],
+  space: ['0px', '2px', '4px', '8px', '10px', '14px', '16px', '20px', '32px', '64px', '128px', '256px'],
   sizes: {
     body: '800px',
   },
@@ -39,6 +40,10 @@ export const theme = {
     body: 'Kumbh Sans, Roboto, Inter, system-ui, sans-serif',
   },
   fontSizes: [
+    "4px",
+    "6px",
+    "8px",
+    "10px",
     '12px',
     '14px',
     '16px',
