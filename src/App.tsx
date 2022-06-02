@@ -1,12 +1,12 @@
 
 import React from "react";
+import ProductContainer from "./containers/productContainer";
 import Layout from "./Layout/Layout";
 
 function App() {
   return (
       <Layout>
-        <div>
-        </div>
+      <ProductContainer />
     </Layout>
 
   );
